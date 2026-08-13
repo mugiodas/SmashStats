@@ -1,17 +1,20 @@
-# SmashStats Web Demo
+# SmashStats Web
 
-GitHub Pagesで公開できる、SmashStats Android版をベースにした体験版です。
+Android版SmashStatsをベースにした紹介LP + Web体験版です。
+
+## 構成
+- `/` : 紹介LP
+- `/demo/` : Web体験版
+- `assets/screenshots/` : プライバシー配慮のため匿名化したアプリ画面
 
 ## 公開
+GitHub Pagesで `main` / `/ (root)` を公開してください。
 
-1. このフォルダの内容をGitHubリポジトリのルートへ配置
-2. Settings → Pages → Deploy from branch → main / root
-3. 公開URLを紹介LPやSNSから案内
+公開後:
+- LP: `https://<user>.github.io/<repo>/`
+- Demo: `https://<user>.github.io/<repo>/demo/`
 
-## データ
+Google Play:
+https://play.google.com/store/apps/details?id=com.aistudio.smashstats.vptzqy
 
-サーバーDBは使用しません。体験データと追加した試合はブラウザのlocalStorageに保存されるため、利用者同士で干渉しません。
-
-## 位置づけ
-
-Android版の主要な体験（ダッシュボード、試合一覧、試合登録、分析、選手、用具、会場、Instagram用カード、設定）をWeb向けUIに再構成したデモです。Android固有の課金、Google Drive、通知、端末共有などはWebの体験対象から除外しています。
+※スクリーンショット内の個人名・大会名・チーム名は、公開用にダミーへ置換しています。

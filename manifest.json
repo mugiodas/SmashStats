@@ -1,0 +1,8 @@
+{
+  "name": "SmashStats",
+  "short_name": "SmashStats",
+  "start_url": "./",
+  "display": "standalone",
+  "theme_color": "#123b59",
+  "background_color": "#f5f8fb"
+}
